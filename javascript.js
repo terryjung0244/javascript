@@ -175,27 +175,42 @@ const userData = {
 
 // const ages = [3, 10, 18, 20];
 
-const terry = [
-  {
-    name: 'TAEHWAN',
-    age: 30,
-    fruit: 'apple'
-  },
+const terrydata = [
   {
     name: 'TAEHWAN',
     age: 10,
-    fruit: 'apple'
+    fruit: 'banana'
   },
   {
-    name: 'TAEHWAN',
-    age: 320,
-    fruit: 'apple'
+    name: 'TERRY',
+    age: 20,
+    fruit: 'orange'
+  },
+  {
+    name: 'DWAINE',
+    age: 30,
+    fruit: 'lemon'
   }
 ]
 
-console.log(terry[0].age)
-console.log(terry[1].fruit)
-console.log(terry[2].name)
+
+terrydata.map((person, index) => {
+  if (person.fruit === 'orange') {
+    console.log(person.name)
+  }
+})
+
+terrydata.map((person, index) => {
+  if (person.name === 'TAEHWAN') {
+    console.log(person.age)
+  }
+})
+
+terrydata.map((person, index) => {
+  if (person.age === 30) {
+    console.log(person.fruit)
+  }
+})
 
 // const sungjun = {
 //   name: "sung",
