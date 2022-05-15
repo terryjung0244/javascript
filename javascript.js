@@ -175,23 +175,27 @@ const userData = {
 
 // const ages = [3, 10, 18, 20];
 
-// const terry = [
-//   {
-//     name: 'TAEHWAN',
-//     age: 30,
-//     fruit: 'apple'
-//   },
-//   {
-//     name: 'TAEHWAN',
-//     age: 10,
-//     fruit: 'apple'
-//   },
-//   {
-//     name: 'TAEHWAN',
-//     age: 320,
-//     fruit: 'apple'
-//   }
-// ]
+const terry = [
+  {
+    name: 'TAEHWAN',
+    age: 30,
+    fruit: 'apple'
+  },
+  {
+    name: 'TAEHWAN',
+    age: 10,
+    fruit: 'apple'
+  },
+  {
+    name: 'TAEHWAN',
+    age: 320,
+    fruit: 'apple'
+  }
+]
+
+console.log(terry[0].age)
+console.log(terry[1].fruit)
+console.log(terry[2].name)
 
 // const sungjun = {
 //   name: "sung",
