@@ -118,25 +118,27 @@ const userData = {
   },
 };
 
-// 1.userTerry - location - movingHistory 0번째 인덱스 값을 뽑아라.
-// 2.userTerry - location - movingHistory 각 값을 뽑아라.
-// 3.userTerry - location - movingHistory 에서 from이 Seoul인 address를 뽑아라.
-// 4.userSungjun의 relationship을 확인해서 각 다른 user의 데이터를 뽑아라.
-// 5.해당 데이터의 location - movingHistory 0번째 인덱스의 from 데이터를 뽑아라.
+// 1.userTerry - location - movingHistory 0번째 인덱스 값을 뽑아라. Done
+// 2.userTerry - location - movingHistory 각 값을 뽑아라. pending
+// 3.userTerry - location - movingHistory 에서 from이 Seoul인 address를 뽑아라. done
+// 4.userSungjun의 relationship을 확인해서 각 다른 user의 데이터를 뽑아라. done
+// 5.해당 데이터의 location - movingHistory 0번째 인덱스의 from 데이터를 뽑아라. done
 // 6.새로운 object를 만들고, 해당 object안에 userTerry의 value를 넣어라.
 // 7.새로운 object를 만들고, 해당 object안에 userTerry의 location - movingHistory 배열을 넣어라.
 
 // console.log(userData.userTerry.location.movingHistory[0])
 
 // userData.userTerry.location.movingHistory.map((element) => {
-//   return element[1]
+//   console.log(element)
 // })
 
 // console.log(userData.userTerry.location.movingHistory[1]['from']['address'])
 
+// console.log(userData.userSungjun.relationship)
+// console.log(userData.userTerry.relationship)
+// console.log(userData.userTom.relationship)
 
-
-
+// console.log(userData.userSungjun.location.movingHistory[0].from);
 
 
 
