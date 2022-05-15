@@ -126,8 +126,8 @@ const userData = {
 // 새로운 object를 만들고, 해당 object안에 userTerry의 value를 넣어라.
 // 새로운 object를 만들고, 해당 object안에 userTerry의 location - movingHistory 배열을 넣어라.
 
-
-
+console.log(userData.userTom.location.movingHistory[1].to.province)
+console.log(userData.userTom.location.movingHistory[1]['to']['province'])
 
 
 // console.log(userData[userData['userTerry']['relationship'][0]]);
@@ -230,8 +230,8 @@ const terrydata = [
 //   } 
 // });
 
-let numberArray = [1, 2, 3, 4, 5];
+// let numberArray = [1, 2, 3, 4, 5];
 
-let returnValue = numberArray.map((num) => num *2).map((num) => num.toString()).map((string) => '$'+string)
+// let returnValue = numberArray.map((num) => num *2).map((num) => num.toString()).map((string) => '$'+string)
 
-console.log(returnValue)
+// console.log(returnValue)
