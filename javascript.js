@@ -194,23 +194,23 @@ const terrydata = [
 ]
 
 
-terrydata.map((person, index) => {
-  if (person.fruit === 'orange') {
-    console.log(person.name)
-  }
-})
+// terrydata.map((person, index) => {
+//   if (person.fruit === 'orange') {
+//     console.log(person.name)
+//   }
+// })
 
-terrydata.map((person, index) => {
-  if (person.name === 'TAEHWAN') {
-    console.log(person.age)
-  }
-})
+// terrydata.map((person, index) => {
+//   if (person.name === 'TAEHWAN') {
+//     console.log(person.age)
+//   }
+// })
 
-terrydata.map((person, index) => {
-  if (person.age === 30) {
-    console.log(person.fruit)
-  }
-})
+// terrydata.map((person, index) => {
+//   if (person.age === 30) {
+//     console.log(person.fruit)
+//   }
+// })
 
 // const sungjun = {
 //   name: "sung",
@@ -229,3 +229,9 @@ terrydata.map((person, index) => {
 //     return element.fruit;
 //   } 
 // });
+
+let numberArray = [1, 2, 3, 4, 5];
+
+let returnValue = numberArray.map((num) => num *2).map((num) => num.toString()).map((string) => '$'+string)
+
+console.log(returnValue)
