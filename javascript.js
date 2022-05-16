@@ -146,6 +146,7 @@ const favouriteColors = {
   computerColor: 'black'
 }
 
+Object
 
 
 
